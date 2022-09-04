@@ -1,0 +1,2 @@
+rootProject.name = 'PlantStatREST'
+includeFlat 'PlantStatTrackerJPA'
