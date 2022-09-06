@@ -41,5 +41,5 @@ This project, upon completion, will leverage several custom-built and modified o
 * Grove Wireless Extender
 
 ## Lessons Learned
-### - Projects are a great way to grow (no pun intended). This projects requires skills beyond my current level, but a methodical approach has enabled me to rise to the challenge and, in doing so, to learn a lot very quickly.
-### - The programming/developer/maker community has collecticely created extensive online guidance on how to accomplish most tasks and use most technologies. A major component of this comes by way of fora in which people present the issues they have faced and the community helps them work through it. This vast amount of readily available information has been invaluable for me, and I am grateful to have so many shoulders to stand on.
+### - Projects are a great way to grow (no pun intended). This project requires skills beyond my current level, but a methodical approach has enabled me to rise to the challenge and, in doing so, to learn a lot very quickly.
+### - The programming/developer/maker community has collecticely created extensive online guidance on how to accomplish most tasks and use most technologies. A major component of this comes by way of fora in which people present the issues they have faced and the community helps to resolve them. This vast amount of readily available information has been invaluable for me, and I am grateful to have so many shoulders to stand on.
