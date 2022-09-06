@@ -53,6 +53,21 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- -----------------------------------------------------
+-- Data for table `soil_moisture`
+-- -----------------------------------------------------
+START TRANSACTION;
+USE `plantstats`;
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (1, '2022-04-02 12:22:01', '11', '1');
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (2, '2022-04-11 13:13:13', '13', '2');
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (3, '2022-04-18 18:18:18', '9', '1');
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (4, '2022-04-25 02:05:25', '12', '2');
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (5, '2022-05-02 05:02:52', '10', '3');
+INSERT INTO `soil_moisture` (`id`, `date_recorded`, `moisture`, `plant_id`) VALUES (6, '2022-05-09 09:05:59', '12', '3');
+
+COMMIT;
+
+
+-- -----------------------------------------------------
 -- Data for table `plant`
 -- -----------------------------------------------------
 START TRANSACTION;
