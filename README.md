@@ -3,10 +3,10 @@
 ## Overview
 This project, upon completion, will leverage several custom-built and modified off-the-shelf sensors to measure and track statistics vital to the health of house plants. These include light level, light spectrum, temperature, soil moisture, and soil nutrients, as well as periodic, automatic photographs to track growth and diagnose illness. The current focus is on implementing a REST API to enable clients to perform the full spectrum of CRUD operations. This will provide scalability both in terms of the number and type of sensors that can easily write their readings to the database and the number and type of devices that can retrieve those readings to perform tailored analyses and create customized displays. It will also provide for a much wider physical distribution of nodes and, consequently, the ability to manage resources remotely.
 
-## Notes on the current state of the project as of 6 September 2022:
-### - The light level sensor works and has been consistently submitting reading at a chosen interval of 10 minutes to a database on an Amazon EC2 instance. This separate project, accessible here (the data portion of which is password protected), does not use a REST API. However, it will soon be updated and merged with the current project.
-### - I am currently experiencing technical difficulties with the soil moisture sensor. I am using a "Flower Care" sensor purchased through SwitchDoc Labs as part of their "SmartGarden3" system. The primary difficulty at the moment is establishing a reliable connection with the Grove Wireless Extender, which (when functional) should enable the bluetooth sensor to submit readings to the EC2 database via wireless internet.
-### - I have acquired the components to build all of the other necessary sensors. I will just need time to tinker.
+### Notes on the current state of the project as of 6 September 2022:
+#### - The light level sensor works and has been consistently submittings reading at a chosen interval of 10 minutes to a database on an Amazon EC2 instance. This separate project, accessible here (the data portion of which is password protected), does not use a REST API. However, it will soon be updated and merged with the current project.
+#### - I am currently experiencing technical difficulties with the soil moisture sensor. I am using a "Flower Care" sensor purchased through SwitchDoc Labs as part of their "SmartGarden3" system. The primary difficulty at the moment is establishing a reliable connection with the Grove Wireless Extender, which (when functional) should enable the bluetooth sensor to submit readings to the EC2 database via wireless internet.
+#### - I have acquired the components to build all of the other necessary sensors. I will just need time to tinker.
 
 ## REST Endpoints
 
