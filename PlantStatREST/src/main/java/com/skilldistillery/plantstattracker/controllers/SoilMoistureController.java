@@ -55,7 +55,7 @@ public class SoilMoistureController {
 
 	// READ
 	@GetMapping("{id}")
-	public List<SoilMoistureReading> findByPlant_Id(@PathVariable Long plantId, HttpServletResponse response) {
+	public List<SoilMoistureReading> findByPlant_Id(@PathVariable("id") Long plantId, HttpServletResponse response) {
 		List<SoilMoistureReading> soilMoistureReadings = new ArrayList<>();
 		try {
 			soilMoistureReadings = soilMoistureService.findByPlant_Id(plantId);
