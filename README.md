@@ -1,4 +1,4 @@
-# Plant Statistics Tracker
+# Plant Statistics Tracker REST API
 
 ## Overview
 This project, upon completion, will leverage several custom-built and modified off-the-shelf sensors to measure and track statistics vital to the health of house plants. These include light level, light spectrum, temperature, soil moisture, and soil nutrients, as well as periodic, automatic photographs to track growth and diagnose illness. The current focus is on implementing a REST API to enable clients to perform the full spectrum of CRUD operations. This will provide scalability both in terms of the number and type of sensors that can easily write their readings to the database and the number and type of devices that can retrieve those readings to perform tailored analyses and create customized displays. It will also provide for a much wider physical distribution of nodes and, consequently, the ability to manage resources remotely.
