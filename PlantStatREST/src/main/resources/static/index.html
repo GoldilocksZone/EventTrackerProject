@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Plant Statistics Tracker</title>
+<script type="text/javascript" src="js/script.js"></script>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="create">
+			<div class="col">
+				<div><p>Add Plant</p></div>
+				<div>
+					<form name="addPlant">
+						<input type="text" name="scientificName" placeholder="Scientific Name"/>
+						<input type="text" name="nickname" placeholder="Nickname"/>
+						<input type="submit" name="submit" value="Add Plant"/>
+					</form>
+				</div>
+				<div id="addPlantResults"></div>
+			</div>
+			<div class="col">
+				<div><p>Add Soil Moisture Reading</p></div>
+				<div>
+					<form name="addMoistureReading">
+						<input type="text" name="plantId" placeholder="Plant Id"/>
+						<input type="text" name="moisture" placeholder="Moisture Level"/>
+						<input type="submit" name="submit" value="Add Moisture Reading"/>
+					</form>
+				</div>
+				<div id="addMoistureReadingResults"></div>
+			</div>
+		</div>
+		<div class="row" id="update">
+			<div class="col">
+				<div><p>Update Plant</p></div>
+				<div>
+					<form name="updatePlant">
+						<input type="text" name="id" placeholder="Plant Id"/>
+						<input type="text" name="scientificName" placeholder="Scientific Name"/>
+						<input type="text" name="nickname" placeholder="Nickname"/>
+						<input type="submit" name="submit" value="Update Plant"/>
+					</form>
+				</div>
+				<div id="updatePlantResults"></div>
+			</div>
+			<div class="col">
+				<div><p>Update Soil Moisture Reading</p></div>
+				<div>
+					<form name="updateMoistureReading">
+						<input type="text" name="id" placeholder="Moisture Reading Id"/>
+						<input type="text" name="moisture" placeholder="Moisture Level"/>
+						<input type="submit" name="submit" value="Update Moisture Reading"/>
+					</form>
+				</div>
+				<div id="updateMoistureReadingResults"></div>
+			</div>
+		</div>
+		<div class="row" id="delete">
+			<div class="col">
+				<div><p>Delete Plant</p></div>
+				<div>
+					<form name="deletePlant">
+						<input type="text" name="id" placeholder="Plant Id"/>
+						<input type="submit" name="submit" value="Delete Plant"/>
+					</form>
+				</div>
+				<div id="deletePlantResults"></div>
+			</div>
+			<div class="col">
+				<div><p>Delete Soil Moisture Reading</p></div>
+				<div>
+					<form name="deleteMoistureReading">
+						<input type="text" name="id" placeholder="Moisture Reading Id"/>
+						<input type="submit" name="submit" value="Delete Soil Moisture Reading"/>
+					</form>
+				</div>
+				<div id="deleteMoistureReadingResults"></div>
+			</div>
+		</div>
+		<div class="row" id="read">
+			<div class="col" id="plants">
+				<div class="row header"><p>Plants</p></div>
+				<div class="row" id="plantList"></div>
+			</div>
+			<div class="col" id="moistureReadings">
+				<div class="row header"><p>Moisture Readings</p></div>
+				<div class="row" id="moistureReadingList"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
